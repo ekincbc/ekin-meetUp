@@ -15,7 +15,7 @@ const NewMeetup = () => {
         },
       }
     ).then(() => {
-      navigate.replace("/");
+      navigate("/");
     });
   };
 
