@@ -24,7 +24,6 @@ const AllMeetups = () => {
 
           meetups.push(meetup);
         }
-        console.log(meetups);
         setIsLoading(false);
         setLoadedMeetups(meetups);
       });
